@@ -1,0 +1,16 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="star-gradient" x1="16" y1="2.5" x2="16" y2="29.5" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg-gradient)"/>
+  <g transform="translate(16, 16)">
+    <path d="M16 0L19.53 12.47L32 16L19.53 19.53L16 32L12.47 19.53L0 16L12.47 12.47Z" fill="url(#star-gradient)" stroke="#E2E8F0" stroke-width="1.5" stroke-linejoin="round"/>
+  </g>
+</svg>
